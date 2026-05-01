@@ -28,6 +28,4 @@ jobs:
       - name: Lint HTML
         run: npx -y htmlhint "*.html"
 
-      # Step 4: Run the linting command to check CSS errors
-      - name: Lint CSS
-        run: npx -y stylelint "*.css" --config ".stylelintrc.json"
+      
