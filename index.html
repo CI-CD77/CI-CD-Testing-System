@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Functionality Testing Showcase</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="main-container">
+        <!-- Dynamic Background Elements -->
+        <div class="background-elements">
+            <div class="blob blob-1"></div>
+            <div class="blob blob-2"></div>
+        </div>
+
+        <div class="content-wrapper">
+            <!-- Hero Section (Simplified) -->
+            <div class="hero-section centered">
+                <div class="hero-content">
+                    <div class="badge logo-container">
+                        <div class="logo-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="animate-spin-slow"><path d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+                        </div>
+                        <h2 class="logo-text">Testing Active</h2>
+                    </div>
+                    <h1 class="hero-title">
+                        Automated <span class="text-accent">Code Testing</span> Solutions.
+                    </h1>
+                    <h3 class="hero-subtitle">Validating Every Line of Code</h3>
+                    <p class="hero-description">
+                        Our code validation process is powered by a robust GitHub Actions workflow designed for maximum reliability. 
+                        Whenever code is pushed to the main branch, the CI/CD pipeline automatically triggers on an 
+                        Ubuntu-latest runner. The workflow first checks out the repository and initializes a Node.js 24 
+                        environment to ensure consistent execution. It then performs a dual-layer quality audit: first, 
+                        it executes 'htmlhint' to verify structural integrity and syntax of all HTML files; next, it runs 
+                        'stylelint' against our CSS using a customized, mandatory-only configuration. This automated 
+                        pipeline guarantees that every update meets our rigorous quality standards before it ever 
+                        reaches production, providing a transparent and failsafe mechanism for continuous code health.
+                    </p>
+                    <div class="hero-actions centered">
+                        <a href="https://github.com/CI-CD77/CI-CD-Testing-System/actions" target="_blank" class="btn btn-primary">
+                            View Pipeline 
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
